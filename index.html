@@ -15,14 +15,15 @@
   </head>
   <body>
     <!-- start nav -->
-    <nav class="sticky-top">
+    <nav class="sticky-top navbar navbar-expand-lg">
       <div class="navContent containeR">
-        <div class="logo">
+        <div class="linksLogo">
+        <div class="logo navbar-brand">
           <i class="fa-solid fa-camera-retro"></i>
           <h1>Photogragh</h1>
         </div>
-        <div class="links">
-          <ul class="nav nav-pills" id="pills-tab" role="tablist">
+        <div class="links collapse navbar-collapse navbar-nav" id="navbarNav1">
+          <ul class="nav nav-pills navbar-nav" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button
                 class="active"
@@ -90,15 +91,16 @@
               </button>
             </li>
           </ul>
+          <div class="contactIcons navbar-nav">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
         </div>
-        <div class="contactIcons">
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </div>
-        <div class="bars">
-          <i class="fa-solid fa-bars"></i>
+      </div>
+        <div class="navbar-toggler bars" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars navbar-toggler-icon bars"></i>
         </div>
       </div>
     </nav>
